@@ -1,0 +1,157 @@
+
+@import url('https://fonts.googleapis.com/css?family=Lato:300');
+
+@font-face {
+	font-family: 'Miso';
+	src: url('../fonts/miso-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+
+
+
+
+/* Layout */
+.ba-container{
+	padding-left: 20px;
+	padding-right: 20px;
+	max-width: 1200px;
+}
+
+
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
+h1,
+h2,
+p {
+	margin: 0;
+}
+
+
+body{
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: "MyriadProRegular", sans-serif;
+	font-size: 20px;
+	color: #333333;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+main{
+	background: #fdde7e;
+	width: 1200px;
+	display: flex;
+	margin: auto;
+	padding: 25px 15px;
+	text-align: center;
+	align-items: center;
+	flex-flow: row wrap;
+	justify-content: flex-start;
+}
+
+.ba-column{
+	padding: 25px 15px;
+	flex-shrink: 1;
+	flex-grow: 1;
+	max-width: 390px;
+	min-width: 300px;
+}
+
+.ba-column__info:hover{
+	transform: scale(1.05);
+	box-shadow: 1px 1px 2px #333333;
+}
+
+.ba-column:nth-child(2) .ba-column__info{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.ba-column__info {
+	background: #ffffff;
+}
+
+.ba-znak-dollar:before{
+	content: '$';
+}
+
+.ba-column__price {
+	color: #02995b;
+	font-family: 'Miso', sans-serif;
+	font-size: 70px;
+	padding-top: 38px;
+}
+
+.ba-column__img{
+	margin-top: 18px;
+	margin-bottom: 30px;
+}
+
+.ba-column__title{
+	font-family: 'Miso', sans-serif;
+	font-size: 56px;
+	font-weight: 400;
+}
+
+.ba-column__description{
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	font-weight: 300;
+	margin-top: 20px;
+	padding-bottom: 32px;
+}
+
+
